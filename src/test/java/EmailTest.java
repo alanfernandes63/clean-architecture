@@ -14,7 +14,7 @@ public class EmailTest {
     }
 
     @Test
-    public void deveCriarEmail() {
+    public void testDeveCriarEmail() {
         assertNotNull(new Email("test@mail.com"));
     }
 }

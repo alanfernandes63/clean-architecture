@@ -1,14 +1,12 @@
-package br.com.escola;
-
 import br.com.escola.aplicacao.aluno.matricular.MatricularAluno;
 import br.com.escola.aplicacao.aluno.matricular.MatricularAlunoDto;
 import br.com.escola.dominio.aluno.Aluno;
 import br.com.escola.dominio.aluno.AlunoRepositorio;
 import br.com.escola.dominio.aluno.CPF;
 import br.com.escola.infra.aluno.RepositorioAlunosEmMemoria;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MatricularAlunoTest {
 

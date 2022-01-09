@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: EmailTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in EmailTest
+naoDeveCriarEmailComEnderecosInvalidos  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at EmailTest.naoDeveCriarEmailComEnderecosInvalidos(EmailTest.java:11)
+
