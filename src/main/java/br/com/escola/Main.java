@@ -18,7 +18,7 @@ public class Main {
         AlunoRepositorio repositorio = new RepositorioAlunosEmMemoria();
         //apagarTabelas();
         //criarTabelas();
-        //inserirDados(repositorio);
+        //inserirAlunos(repositorio);
 
 //        List<Aluno> alunos = repositorio.listarTodosAlunosMatriculados();
 //        Aluno aluno = repositorio.buscarPorCPF(new CPF("12345678912"));
@@ -27,7 +27,6 @@ public class Main {
 //        boolean igual = cs.validarSenha(senhaCifrada, "12345");
         MatricularAluno matricularAluno = new MatricularAluno(repositorio);
         matricularAluno.executa(new MatricularAlunoDto("alan", "12345678912", "alan@mail.com"));
-        System.out.println("");
     }
 
     public static void criarTabelas() {
@@ -46,7 +45,7 @@ public class Main {
         }
     }
 
-    public static void inserirDados(AlunoRepositorio repositorio) {
+    public static void inserirAlunos(AlunoRepositorio repositorio) {
         Aluno alan = new FabricaAluno().comNomeCPFEmail("alan", "12345678912","alan@mail.com")
                 .comTelefone(new Telefone("84", "123456789"))
                 .comTelefone(new Telefone("81", "123456789"))

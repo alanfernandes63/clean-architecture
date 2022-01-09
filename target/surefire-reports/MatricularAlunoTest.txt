@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: MatricularAlunoTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s - in MatricularAlunoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 s - in MatricularAlunoTest
